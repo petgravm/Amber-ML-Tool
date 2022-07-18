@@ -8,7 +8,7 @@ The tool also comes with an additional features to run the individual ML algorit
 The tool uses linear regression as well as distance calculations to determine the epsilon and mini-points, respectively, within your data for the DBSCAN algorithm. 
 
 ## How to use the program/tool:
-Please set up a virtual environment with (or make sure your system has) sciKit-learn downloaded. Please also make sure that AMBER's modules are activated. 
+Please set up a virtual environment with (or make sure your system has) sciKit-learn downloaded. Please also make sure that AMBER's modules are activated. Make sure all the scripts (python and bash script(s)) are in the same directory. 
 Run the program using the bash script './Clustering.sh', to which you'll be prompted to give the full path of your trajectory and topology files, as well as the residues or molecules that you wish to focus your clustering on (please use the amber format for the residues/molecular delimitations i.e. 'commas' or dashes'-'). You will also be asked for the sieved frames(the frames you wish to skip) for the DBSCAN algorithm. You will have the option to run any of the clustering algorithms individually (in which, please indicate your choice through writing out the number i.e. 
 #### '1' for 'K Means', 
 #### '2' for 'Hierarchial Average Linkage', 
